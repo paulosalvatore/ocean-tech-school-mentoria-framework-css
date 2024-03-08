@@ -1,7 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+:root {
+  --bs-slate-950: #1e293b;
+  --bs-slate-400: #94a3b8;
+}
 
-body {
-    height: 100vh;
+.bg-slate-950 {
+  background-color: var(--bs-slate-950);
+}
+
+.text-slate-400 {
+  color: var(--bs-slate-400);
 }
